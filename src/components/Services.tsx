@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Monitor, Wordpress, Settings, Smartphone, Headphones } from 'lucide-react';
+import { Code, Monitor, Globe, Settings, Smartphone, Headphones } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Services = () => {
@@ -19,7 +19,7 @@ const Services = () => {
       features: ['React.js Applications', 'Responsive Design', 'UI/UX Implementation', 'Cross-browser Compatibility']
     },
     {
-      icon: Wordpress,
+      icon: Globe,
       title: 'WordPress Development',
       description: 'Custom WordPress themes, plugins, and complete CMS solutions',
       features: ['Custom Themes', 'Plugin Development', 'WooCommerce', 'WordPress Optimization']
