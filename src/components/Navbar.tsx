@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -30,16 +29,26 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'bg-background/95 backdrop-blur-md border-b border-border' : 'bg-transparent'
-    }`}>
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled ? 'bg-background/95 backdrop-blur-md border-b border-border' : 'bg-transparent'
+      }`}
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+          
+          {/* 🔥 Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold gradient-text">Hasnain Ashraf</h1>
+            <a href="#home">
+              <img
+                src="/navlog.png"
+                alt="Hasnain Ashraf Logo"
+                className="h-12 w-auto"
+              />
+            </a>
           </div>
 
-          {/* Desktop Navigation */}
+          {/* 🖥️ Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navItems.map((item) => (
@@ -54,7 +63,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Theme Toggle & Mobile Menu Button */}
+          {/* 🌗 Theme Toggle & Mobile Menu */}
           <div className="flex items-center space-x-4">
             <Button
               variant="ghost"
@@ -78,7 +87,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* 📱 Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-card border border-border rounded-lg mt-2">

@@ -98,10 +98,12 @@ const Hero = () => {
           variants={buttonVariants}
           className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16"
         >
-          <Button size="lg" className="group px-8 py-3 text-lg">
+          <a href="#portfolio" className="group">
+          <Button  size="lg" className="group px-8 py-3 text-lg">
             View My Work
             <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
           </Button>
+          </a>
         <a href="/Hasnain-Resume.pdf" download>
           <Button size="lg" variant="outline" className="px-8 py-3 text-lg">
            <Download className="mr-2 h-5 w-5" />
