@@ -8,17 +8,17 @@ const Footer = () => {
     {
       icon: Github,
       label: 'GitHub',
-      url: 'https://github.com'
+      url: 'https://github.com/HasnainAshraf'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      url: 'https://linkedin.com'
+      url: 'https://www.linkedin.com/in/hasnain-ashraf-0a7563203/'
     },
     {
       icon: Mail,
       label: 'Email',
-      url: 'mailto:hasnian@example.com'
+      url: 'mailto:hasnainonlinework@gmail.com'
     }
   ];
 
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold gradient-text mb-4">Hasnian Ashraf</h3>
+            <h3 className="text-xl font-bold gradient-text mb-4">Hasnain Ashraf</h3>
             <p className="text-muted-foreground mb-6">
               Web Developer specialized in React.js, Node.js & WordPress. 
               Creating digital experiences that matter.
@@ -84,8 +84,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>hasnian@example.com</p>
-              <p>+1 (555) 123-4567</p>
+              <p>hasnainonlinework@gmail.com</p>
+              <p>+92 317350440</p>
               <p>Pakistan</p>
             </div>
           </div>
@@ -94,10 +94,10 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © 2024 Hasnian Ashraf. All rights reserved.
+            © 2024 Hasnain Ashraf. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center">
-            Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> using React.js
+            Made with using React.js
           </p>
         </div>
       </div>

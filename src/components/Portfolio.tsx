@@ -12,13 +12,13 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'Modern e-commerce solution built with React.js and Node.js',
-      longDescription: 'A full-featured e-commerce platform with user authentication, payment processing, inventory management, and admin dashboard. Built with React.js frontend, Node.js backend, and MongoDB database.',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80',
+      title: 'Video Monitoring Website',
+      description: 'Modern website built with Wordpress',
+      longDescription: 'A full-featured video monitoring website built with WordPress, featuring real-time video streaming, user authentication, and a responsive design. It integrates with various video sources and provides a seamless user experience.',
+      image: 'public\videomonitoringwebsite.png',
       technologies: ['React.js', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      category: 'Web App',
-      liveUrl: '#',
+      category: 'Website',
+      liveUrl: 'https://videomonitoring247.com/',
       githubUrl: '#'
     },
     {

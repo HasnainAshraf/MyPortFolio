@@ -43,14 +43,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hasnian@example.com',
-      link: 'mailto:hasnian@example.com'
+      value: 'hasnainonlinework@gmail.com',
+      link: 'mailto:hasnainonlinework@gmail.com'
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+92 3173504406',
+      link: 'tel:+92 3173504406'
     },
     {
       icon: MapPin,

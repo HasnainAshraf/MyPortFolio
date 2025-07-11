@@ -6,16 +6,16 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
   const skills = [
-    { name: 'React.js', icon: Code2, level: 95 },
-    { name: 'Node.js', icon: Database, level: 90 },
-    { name: 'WordPress', icon: Palette, level: 88 },
-    { name: 'JavaScript', icon: Zap, level: 92 }
+    { name: 'React.js', icon: Code2, level: 85 },
+    { name: 'Node.js', icon: Database, level: 75 },
+    { name: 'WordPress', icon: Palette, level: 80 },
+    { name: 'JavaScript', icon: Zap, level: 85 }
   ];
 
   const stats = [
-    { number: '3+', label: 'Years Experience' },
-    { number: '50+', label: 'Projects Completed' },
-    { number: '30+', label: 'Happy Clients' },
+    { number: '1+', label: 'Years Experience' },
+    { number: '10+', label: 'Projects Completed' },
+    { number: '10+', label: 'Happy Clients' },
     { number: '24/7', label: 'Support' }
   ];
 
