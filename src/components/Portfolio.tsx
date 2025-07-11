@@ -13,67 +13,92 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'Video Monitoring Website',
-      description: 'Modern website built with Wordpress',
-      longDescription: 'A full-featured video monitoring website built with WordPress, featuring real-time video streaming, user authentication, and a responsive design. It integrates with various video sources and provides a seamless user experience.',
-      image: 'public\videomonitoringwebsite.png',
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      category: 'Website',
+      description: 'Professional security service site built with WordPress & Elementor',
+      longDescription: 'This website showcases 24/7 live video monitoring solutions offered by iLink Professionals. It includes service overviews, package pricing, contact integration, and a responsive design for all devices. Developed in WordPress with Elementor, the site emphasizes trust, clarity, and user experience for potential B2B clients in the security space.',
+      image: '/videomonitoringwebsite.png',
+      technologies: ['WordPress CMS',
+  'Elementor (or WPBakery, if used)',
+  'PHP',
+  'HTML5 & CSS3',
+  'JavaScript',
+  'MySQL Database',
+  'Responsive Design',
+  'Custom Post Types & Plugins'],
+      category: 'WordPress',
       liveUrl: 'https://videomonitoring247.com/',
       githubUrl: '#'
     },
     {
       id: 2,
-      title: 'Portfolio Website',
-      description: 'Responsive portfolio website with modern animations',
-      longDescription: 'A stunning portfolio website featuring smooth animations, responsive design, and optimized performance. Built with React.js and Framer Motion for engaging user interactions.',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=800&q=80',
-      technologies: ['React.js', 'Framer Motion', 'Tailwind CSS', 'Vite'],
-      category: 'Website',
-      liveUrl: '#',
+      title: 'Point of Sale System',
+      description: 'Advanced POS solution for retail & restaurants',
+      longDescription: 'iPOS is an advanced Point of Sale system developed by iLink Professionals, designed for retail stores and restaurants. It offers smart inventory management, billing, sales reports, customer tracking, and multi-device compatibility. Built for speed and efficiency, it works seamlessly across POS terminals, tablets, and desktops.',
+      image: '/poswebsite.png',
+      technologies: ['WordPress CMS',
+  'Elementor (or WPBakery, if used)',
+  'PHP',
+  'HTML5 & CSS3',
+  'JavaScript',
+  'MySQL Database',
+  'Responsive Design',
+  'Custom Post Types & Plugins'],
+      category: 'WordPress',
+      liveUrl: 'https://www.ilinkpro.com/ipos/',
       githubUrl: '#'
     },
     {
       id: 3,
-      title: 'WordPress Blog',
-      description: 'Custom WordPress theme with advanced features',
-      longDescription: 'A custom WordPress theme designed for bloggers and content creators. Features include custom post types, advanced customizer options, SEO optimization, and responsive design.',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80',
-      technologies: ['WordPress', 'PHP', 'JavaScript', 'SCSS', 'MySQL'],
+      title: 'Audio/Visual & LED Wall Solutions',
+      description: 'Modern AV service website built with WordPress',
+      longDescription: 'DSPAV is a professionally designed WordPress website developed for a company specializing in Audio/Visual systems, LED walls, lighting, and staging solutions. The site features a clean, responsive design with sections for services, industries served, contact forms, and portfolio visuals. Built using Elementor with SEO optimization, it provides an informative and user-friendly experience for potential commercial clients.',
+      image: '/dspavwebsite.png',
+      technologies: ['WordPress CMS',
+    'Elementor Page Builder',
+    'PHP',
+    'JavaScript',
+    'HTML5 & CSS3',
+    'MySQL Database',
+    'Responsive Web Design',
+    'Contact Form 7',
+    'Yoast SEO Plugin'],
       category: 'WordPress',
-      liveUrl: '#',
+      liveUrl: 'https://dspav.com/',
       githubUrl: '#'
     },
     {
       id: 4,
-      title: 'Task Management App',
-      description: 'Collaborative task management with real-time updates',
-      longDescription: 'A comprehensive task management application with real-time collaboration, project management features, and team communication tools. Built with modern web technologies.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80',
-      technologies: ['React.js', 'Socket.io', 'Express.js', 'PostgreSQL'],
-      category: 'Web App',
-      liveUrl: '#',
+      title: 'Event DJ & Lighting Services',
+      description: 'Professional event DJ website built with WordPress',
+      longDescription: 'DJ Sonny Productions is a sleek and modern WordPress website built for a professional DJ offering event entertainment, lighting, and sound services. The site features event highlights, service details, booking forms, and a mobile-optimized design. Built using Elementor, it delivers an energetic user experience that reflects the vibe and professionalism of the brand.',
+      image: '/djsonnywebsite.png',
+      technologies: ['WordPress CMS',
+  'Elementor (or WPBakery, if used)',
+  'PHP',
+  'HTML5 & CSS3',
+  'JavaScript',
+  'MySQL Database',
+  'Responsive Design',
+  'Custom Post Types & Plugins'],
+      category: 'WordPress',
+      liveUrl: 'https://djsonnyproductions.com/home/',
       githubUrl: '#'
     },
     {
       id: 5,
-      title: 'Restaurant Website',
-      description: 'Modern restaurant website with online ordering',
-      longDescription: 'A beautiful restaurant website featuring menu display, online ordering system, reservation booking, and customer reviews. Optimized for mobile devices and local SEO.',
-      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
-      technologies: ['React.js', 'Node.js', 'Stripe', 'Google Maps API'],
+      title: 'The Dashtakh – Sunglasses & Eyewear E-Commerce Site',
+      description: 'Custom-built online store for sunglasses and eyewear',
+      longDescription: 'The Dashtakh is a sleek e-commerce site dedicated to high-quality sunglasses and eyewear. The project features a user-friendly storefront with product galleries, filtering options, shopping cart, secure checkout, and contact info. Built on a custom PHP‑based platform (not WordPress), it integrates MySQL for product data, responsive design, and third-party payment gateway support for seamless transactions.',
+      image:'/dastakhwebsite.png',
+      technologies: ['Custom PHP E-Commerce Platform',
+    'MySQL Database',
+    'HTML5 & CSS3',
+    'JavaScript (ES6)',
+    'Responsive Web Design',
+    'Product Gallery & Filters',
+    'Shopping Cart & Checkout',
+    'Payment Gateway Integration'],
       category: 'Website',
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      id: 6,
-      title: 'Learning Management System',
-      description: 'Educational platform with course management',
-      longDescription: 'A comprehensive learning management system with course creation, student enrollment, progress tracking, and interactive quizzes. Features video streaming and discussion forums.',
-      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80',
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'JWT', 'AWS S3'],
-      category: 'Web App',
-      liveUrl: '#',
+      liveUrl: 'https://thedashtakh.com/',
       githubUrl: '#'
     }
   ];
@@ -211,12 +236,12 @@ const Portfolio = () => {
                         Live Demo
                       </a>
                     </Button>
-                    <Button variant="outline" asChild>
+                    {/* <Button variant="outline" asChild>
                       <a href={selectedProject.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
                         View Code
                       </a>
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </>

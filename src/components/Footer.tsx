@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
@@ -34,31 +33,28 @@ const Footer = () => {
     <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
-          {/* Brand */}
+          
+          {/* Brand Info */}
           <div>
             <h3 className="text-xl font-bold gradient-text mb-4">Hasnain Ashraf</h3>
             <p className="text-muted-foreground mb-6">
-              Web Developer specialized in React.js, Node.js & WordPress. 
+              Web Developer specialized in React.js, Node.js & WordPress.
               Creating digital experiences that matter.
             </p>
+
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
-                <Button
+                <a
                   key={social.label}
-                  variant="outline"
-                  size="sm"
-                  asChild
-                  className="p-2"
+                  href={social.url}
+                  target={social.url.startsWith('mailto:') ? '_self' : '_blank'}
+                  rel="noopener noreferrer"
+                  aria-label={social.label}
                 >
-                  <a
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={social.label}
-                  >
+                  <Button variant="outline" size="sm" className="p-2">
                     <social.icon className="h-4 w-4" />
-                  </a>
-                </Button>
+                  </Button>
+                </a>
               ))}
             </div>
           </div>

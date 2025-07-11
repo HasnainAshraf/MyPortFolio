@@ -49,7 +49,7 @@ const About = () => {
               Creating Digital Solutions That Matter
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I'm a dedicated web developer with over 3 years of experience in building 
+              I'm a dedicated web developer with over 1 years of experience in building 
               modern web applications. My journey started with a passion for problem-solving 
               and has evolved into expertise in cutting-edge technologies.
             </p>

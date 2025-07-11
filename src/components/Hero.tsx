@@ -102,23 +102,28 @@ const Hero = () => {
             View My Work
             <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
           </Button>
-          
+        <a href="/Hasnain-Resume.pdf" download>
           <Button size="lg" variant="outline" className="px-8 py-3 text-lg">
-            <Download className="mr-2 h-5 w-5" />
+           <Download className="mr-2 h-5 w-5" />
             Download Resume
           </Button>
+       </a>
         </motion.div>
 
         <motion.div
           variants={buttonVariants}
           className="flex justify-center space-x-6"
         >
-          <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
-            <Github className="h-6 w-6" />
-          </Button>
-          <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
+          <a href="https://github.com/HasnainAshraf" target="_blank" rel="noopener noreferrer">
+           <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
+             <Github className="h-6 w-6" />
+           </Button>
+          </a>
+          <a href="https://www.linkedin.com/in/hasnain-ashraf-0a7563203/" target="_blank" rel="noopener noreferrer">
+           <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
             <Linkedin className="h-6 w-6" />
           </Button>
+          </a>
         </motion.div>
       </motion.div>
 

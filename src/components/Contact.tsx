@@ -64,12 +64,12 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      url: 'https://github.com'
+      url: 'https://github.com/HasnainAshraf'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      url: 'https://linkedin.com'
+      url: 'https://www.linkedin.com/in/hasnain-ashraf-0a7563203/'
     }
   ];
 
