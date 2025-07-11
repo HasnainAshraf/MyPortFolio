@@ -36,7 +36,17 @@ const Footer = () => {
           
           {/* Brand Info */}
           <div>
-            <h3 className="text-xl font-bold gradient-text mb-4">Hasnain Ashraf</h3>
+            {/* <h3 className="text-xl font-bold gradient-text mb-4">Hasnain Ashraf</h3> */}
+            {/* 🔥 Logo */}
+          <div className="flex-shrink-0 ">
+            <a href="#home">
+              <img
+                src="/navlog.png"
+                alt="Hasnain Ashraf Logo"
+                className="h-12 w-auto mb-5"
+              />
+            </a>
+          </div>
             <p className="text-muted-foreground mb-6">
               Web Developer specialized in React.js, Node.js & WordPress.
               Creating digital experiences that matter.
@@ -60,7 +70,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className='mt-3'>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {navigationLinks.map((link) => (
@@ -77,7 +87,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className='mt-3'>
             <h4 className="font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-muted-foreground">
               <p>hasnainonlinework@gmail.com</p>

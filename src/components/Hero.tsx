@@ -50,10 +50,16 @@ const Hero = () => {
     }
   };
 
+  const handleClick = () => {
+    const element = document.getElementById("about");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-secondary/20">
       <ParticleBackground />
-      
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -62,9 +68,9 @@ const Hero = () => {
       >
         <motion.div
           variants={itemVariants}
-          className="mb-6"
+          className="mb-1"
         >
-          <span className="inline-block px-4 py-2 bg-primary/10 rounded-full text-primary font-medium text-sm mb-4">
+          <span className="inline-block px-4 py-2 bg-primary/10 rounded-full text-primary font-medium text-sm mt-16">
             👋 Welcome to my portfolio
           </span>
         </motion.div>
@@ -87,12 +93,12 @@ const Hero = () => {
           <span className="text-primary font-semibold">WordPress</span>
         </motion.p>
 
-        <motion.p
+        {/* <motion.p
           variants={buttonVariants}
           className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto"
         >
           I create modern, responsive, and user-friendly web applications that deliver exceptional digital experiences.
-        </motion.p>
+        </motion.p> */}
 
         <motion.div
           variants={buttonVariants}
@@ -114,15 +120,15 @@ const Hero = () => {
 
         <motion.div
           variants={buttonVariants}
-          className="flex justify-center space-x-6"
+          className="flex justify-center space-x-6 "
         >
           <a href="https://github.com/HasnainAshraf" target="_blank" rel="noopener noreferrer">
-           <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
+           <Button size="icon" variant="ghost" className="hover:text-primary transition-colors mt-8">
              <Github className="h-6 w-6" />
            </Button>
           </a>
           <a href="https://www.linkedin.com/in/hasnain-ashraf-0a7563203/" target="_blank" rel="noopener noreferrer">
-           <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
+           <Button size="icon" variant="ghost" className="hover:text-primary transition-colors mt-8">
             <Linkedin className="h-6 w-6" />
           </Button>
           </a>
@@ -140,7 +146,12 @@ const Hero = () => {
           transition={{ duration: 2, repeat: Infinity }}
           className="text-muted-foreground"
         >
-          <ArrowDown className="h-6 w-6" />
+          <div 
+      className="cursor-pointer hover:text-primary transition-colors"
+      onClick={handleClick}
+    >
+      <ArrowDown className="h-6 w-6 " />
+    </div>
         </motion.div>
       </motion.div>
     </section>
