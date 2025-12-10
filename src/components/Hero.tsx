@@ -110,7 +110,7 @@ const Hero = () => {
             <ArrowDown className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
           </Button>
           </a>
-        <a href="/Hasnain-Resume.pdf" download>
+        <a href="/HasnainResume.pdf" download>
           <Button size="lg" variant="outline" className="px-8 py-3 text-lg">
            <Download className="mr-2 h-5 w-5" />
             Download Resume
